@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
+ashfall_save.json
+ashfall2_save.json
+ashfall_errors.log
