@@ -30,7 +30,7 @@ jobs:
         run: python -m pip install --upgrade pip pygbag
 
       - name: Build web version
-        run: python -m pygbag --build .
+        run: rm -f pygbag.ini && python -m pygbag --build --app_name ASHFALL .
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
